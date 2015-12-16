@@ -1,0 +1,336 @@
+@font-face { 
+    font-family: Apercu_regular;
+    src: url(fonts/apercu_regular-webfont.eot) format("eot"), /* IE8+, знак ? позволяет обойти баг в обработчике значения src */
+         url(fonts/apercu_regular-webfont.woff) format("woff"), /* все современные браузеры, IE9+ */
+         url(fonts/apercu_regular-webfont.ttf) format("truetype"); /* все современные браузеры */
+}
+
+@font-face { 
+    font-family: Apercu_light;
+    src: url(fonts/apercu_light-webfont.eot) format("eot"), /* IE8+, знак ? позволяет обойти баг в обработчике значения src */
+         url(fonts/apercu_light-webfont.woff) format("woff"), /* все современные браузеры, IE9+ */
+         url(fonts/apercu_light-webfont.ttf) format("truetype"); /* все современные браузеры */
+}
+
+@font-face { 
+    font-family: Apercu_bold;
+    src: url(fonts/apercu_bold-webfont.eot) format("eot"), /* IE8+, знак ? позволяет обойти баг в обработчике значения src */
+         url(fonts/apercu_bold-webfont.woff) format("woff"), /* все современные браузеры, IE9+ */
+         url(fonts/apercu_bold-webfont.ttf) format("truetype"); /* все современные браузеры */
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+
+html{
+	font-size: 16px;
+}
+
+.header-bg{
+	height: 100vh;
+	width: 100%;
+	background: url("images/main.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+header{
+	margin: 0 7vw;
+	padding-top: 6vh;
+}
+
+.logo{
+	display: inline-block;
+	float: left;
+	width: 48px;
+	height: 48px;
+}
+
+.logo-text{
+	display: inline-block;
+	margin: 10px 0;
+	font-family: Apercu_light;
+	font-size: 24px;
+}
+
+header a{
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+
+header nav{
+	float: right;
+	color: #fff;
+}
+
+header: after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header nav li{
+	list-style: none;
+	text-transform: uppercase;
+	font-family: Apercu_bold;
+	font-size: 12px;
+	display: inline-block;
+}
+
+header nav ul{
+	float: left;
+}
+
+.transparent-button{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-family: Apercu_bold;
+	font-size: 12px;
+	padding: 10px 30px;
+}
+
+.header-controls{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	color: #fff;
+	font-family: Apercu_light;
+}
+
+.header-controls a{
+	text-decoration: none;
+	color: #fff;
+	width: 102px;
+	height: 50px;
+	background-color: #6782c2;
+	border-radius: 0 5px 5px 0;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	float: right;
+	font-family: Apercu_bold;
+	font-size: 12px;
+}
+
+.header-controls h1 {
+	font-family: Apercu_light;
+	font-size: 48px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.header-controls p{
+	font-family: Apercu_light;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+input{
+	box-sizing: border-box;
+	width: 313px;
+	height: 50px;
+	border-radius: 5px 0 0 5px;
+	padding: 10px;
+}
+
+.check{
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+}
+
+h1.our_features{
+	font-size: 32px;
+	text-align: center;
+	font-family: Apercu_regular;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+
+h2{
+	font-family: Apercu_regular;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+p{
+	font-family: Apercu_light;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.first-text img{
+	float: left;
+	padding-right: 20px;
+}
+
+.first-text{
+	display: table-cell;
+	width: 470px;
+	vertical-align: middle;
+	padding-left: 100px;
+	padding-right: 40px;
+}
+
+.first-table{
+	display: table-cell;
+	width: 700px;
+	padding-right: 50px;
+}
+
+.content2{
+	height: 100vh;
+	width: 100%;
+	background: url("images/main1.jpg") no-repeat;
+	background-size: cover;
+}
+
+.second-table{
+	display: table-cell;
+	padding: 110px 0 0 110px;
+}
+
+.second-text{
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 55px;
+	padding-right: 50px;
+}
+
+.second-text img{
+	float: left;
+	padding-right: 20px;
+}
+
+.third-text{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 100px 100px 0 100px;
+}
+
+.third-text img{
+	float: left;
+	padding-right: 20px;
+}
+
+.phones{
+	display: table-cell;
+	padding-top: 100px;
+	padding-right: 115px;
+}
+
+.ceo{
+	text-align: center;
+}
+
+.ceo h1{
+	font-size: 32px;
+	text-align: center;
+	font-family: Apercu_regular;
+	padding-top: 80px;
+	padding-bottom: 55px;
+}
+
+.ceo img{
+	padding-bottom: 15px;
+}
+
+.quote{
+	font-family: Apercu_light;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+.autor {
+	font-family: Apercu_bold;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 90px;
+	font-size: 12px;
+}
+
+.footer{
+	height: 45vh;
+	width: 100%;
+	background: url("images/footer.png");
+	background-size: cover;
+	position: relative;
+}
+
+.footer-controls{
+	color: #fff;
+	position: absolute;
+	top: 15%;
+	left: 35%;
+}
+
+.footer-controls h1{
+	margin: 0;
+	padding: 30px;
+	font-family: Apercu_light;
+	font-size: 32px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	width: 102px;
+	height: 50px;
+	background-color: #3ecacb;
+	border-radius: 0 5px 5px 0;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	float: right;
+	font-family: Apercu_bold;
+	font-size: 12px;
+}
+
+.footer1 p{
+	display: inline;
+	padding-right: 25px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Apercu_regular;
+	font-size: 13px;
+}
+
+.footer1{
+	margin: 0 7vw;
+	padding-top: 5vh;
+}
+
+.footer-logo{
+	display: inline-block;
+	float: left;
+	width: 48px;
+	height: 48px;
+}
+
+.footer-logo-text{
+	color: #494949;
+	text-decoration: none;
+	display: inline-block;
+	margin: 15px;
+	font-family: Apercu_light;
+	font-size: 24px;
+}
+
+.contacts{
+	margin-left: 240px;
+}
+
+.created{
+	float: right;
+}
+
