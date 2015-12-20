@@ -63,6 +63,8 @@ header a{
 	padding: 10px;
 }
 
+
+
 header nav{
 	float: right;
 	color: #fff;
@@ -133,11 +135,12 @@ header nav ul{
 	padding-bottom: 35px;
 }
 
-input{
+input[type="text"]{
 	box-sizing: border-box;
 	width: 313px;
 	height: 50px;
 	border-radius: 5px 0 0 5px;
+	border: 1px;
 	padding: 10px;
 }
 
@@ -174,7 +177,6 @@ p{
 
 .first-text{
 	display: table-cell;
-	width: 470px;
 	vertical-align: middle;
 	padding-left: 100px;
 	padding-right: 40px;
@@ -182,7 +184,6 @@ p{
 
 .first-table{
 	display: table-cell;
-	width: 700px;
 	padding-right: 50px;
 }
 
@@ -334,3 +335,16 @@ p{
 	float: right;
 }
 
+#registration {
+   display: none;
+   position: absolute;
+   top: 0;
+   left:35%;
+}
+
+form{
+	width: 100%;
+	border: 1px solid #EBEBEB;
+	border-radius: 4px;
+	padding: 30px;
+}
