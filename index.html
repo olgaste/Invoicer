@@ -81,52 +81,53 @@
 			<div class="created"><img src="images/created.png"alt="Created by"/></div>
 		</div>
 	</footer>
-	<form id="registration" method="post">
-		<h3>Sign up</h3>
-		<hr size="1" color="#EEEEEE">
-			<strong>Username</strong>
-			<input type="text-reg" name="username">
-			<strong>Email</strong>
-			<input type="email" name="email">
-			<div class="pass">
-				<strong>Password</strong>
-				<input type="password" name="password">
-			</div>
-			<div class="confirm-pass">
-				<strong>Confirm password</strong>
-				<input type="comfirm-password" name="confirm password">
-			</div>
+		<form id="registration" class="sign-up" method="post">
+			<h3 class="headline">Sign up</h3>
 			<hr size="1" color="#EEEEEE">
-			<div class="first-name"><strong>First name</strong>
-				<input type="first-name" name="first name">
-			</div>
-			<div class="last-name">
-				<strong>Last name</strong>
-				<input type="last-name" name="last name"></br>
-			</div>
-			<div class="gender-m">
-				<strong>Sex</strong>
-				<input type="radio" name="sex" id="male" value="male">
-				<label for>Male</label>
-			</div>
-			<div class="gender-f">
-				<input type="radio" name="sex" id="female" value="female">
-				<label for="Female">Female</label>
-			</div>
-			<strong>City</strong>
-			<select name="city">
-				<option value="odessa">Одесса</option>
-				<option value="simferopol">Симферополь</option>
-				<option value="sevastopol">Севастополь</option>
-				<option value="donetsk">Донецк</option>
-				<option value="lugansk">Луганск</option>
-			</select></br>
-			<textarea cols="45" rows="5" name="comment" placeholder="Few words about me"></textarea>
+				<h4 class="bold">Username</h4>
+				<input type="text-reg" name="username">
+				<h4 class="bold">Email</h4>
+				<input type="email" name="email">
+				<div class="data">
+					<h4 class="bold">Password</h4>
+					<input type="password" name="password">
+				</div>
+				<div class="data">
+					<h4 class="bold">Confirm password</h4>
+					<input type="password" name="confirm-password">
+				</div>
+				<hr size="1" color="#EEEEEE">
+				<div class="data"><h4 class="bold">First name</h4>
+					<input type="text" name="first-name">
+				</div>
+				<div class="data">
+					<h4 class="bold">Last name</h4>
+					<input type="text" name="last-name"></br>
+				</div>
+				<div class="data">
+					<h4 class="bold">Sex</h4>
+					<input type="radio" name="sex" id="male" value="male">
+					<label for>Male</label>
+				</div>
+				<div class="data">
+					<input type="radio" name="sex" id="female" value="female">
+					<label for="Female">Female</label>
+				</div>
+				<h4 class="bold">City</h4>
+				<select name="city">
+					<option value="odessa">Одесса</option>
+					<option value="simferopol">Симферополь</option>
+					<option value="sevastopol">Севастополь</option>
+					<option value="donetsk">Донецк</option>
+					<option value="lugansk">Луганск</option>
+				</select></br>
+				<textarea cols="45" rows="5" name="comment" placeholder="Few words about me"></textarea>
 			
-			<hr size="1" color="#EEEEEE">
-			<input type="checkbox" name="agree">I agree with <a href="#">Terms and conditions</a></br>
-			<input type="submit" value="Register"></br>
-			<input type="reset" value="Clear">
+				<hr size="1" color="#EEEEEE">
+				<input type="checkbox" name="agree">I agree with <a href="#">Terms and conditions</a></br>
+				<input type="submit" value="Register"></br>
+				<input type="reset" value="Clear">
 		</form>
+		
 </body>
 </html>

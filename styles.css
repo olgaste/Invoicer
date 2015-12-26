@@ -63,8 +63,6 @@ header a{
 	padding: 10px;
 }
 
-
-
 header nav{
 	float: right;
 	color: #fff;
@@ -339,12 +337,16 @@ p{
    display: none;
    position: absolute;
    top: 0;
-   left:35%;
+   left:0;
 }
 
-form{
+.sign-up {
 	width: 100%;
 	border: 1px solid #EBEBEB;
 	border-radius: 4px;
 	padding: 30px;
 }
+
+
+
+
