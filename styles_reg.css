@@ -71,6 +71,12 @@ input[type="submit"] {
 	background: #DDDDDD;
 }
 
+a.hide-popup{
+	float: right;
+	color: #6F7B91;
+	text-decoration: none;
+}
+
 
 
 
